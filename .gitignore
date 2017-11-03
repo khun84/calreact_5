@@ -17,8 +17,12 @@
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
-
 .byebug_history
-/.idea/public/packs
 /.idea
+/.idea/public/packs
+/.idea# React on Rails
+npm-debug.log*
+node_modules
+
+# Generated js bundles
+/app/assets/webpack/*
